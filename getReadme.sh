@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # lab readme's
-# for x in {1..14}; do
-#   mkdir -p lab/lab$x
-#   pushd lab/lab$x
-#   curl -s -O http://www.cs.berkeley.edu/~jrs/61b/lab/lab$x/readme
-#   popd
-# done
+for x in {1..14}; do
+  mkdir -p lab/lab$x
+  pushd lab/lab$x
+  curl -s -O http://www.cs.berkeley.edu/~jrs/61b/lab/lab$x/readme
+  popd
+done
 
 # hw readme's
 for x in {1..10}; do
